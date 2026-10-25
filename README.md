@@ -7,7 +7,7 @@ While practicing reconnaissance with dirsearch on Termux, I accidentally discove
 Conclusion: This portal should ideally have a bug bounty program to encourage responsible reporting. The findings suggest a lack of attention to detail from the development team in securing the production environment, leaving development artifacts exposed.
 
 ## title 
-found lots of backdoor website 
+writeup and found lots of backdoor website 
 
 ## target
 career/[SOMETING]/ job .com
