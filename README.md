@@ -12,7 +12,7 @@ writeup and found lots of backdoor website
 ## target
 career/[SOMETING]/ job .com
 ## endpoint 
-founded:  env,put,upload,mysql.php,shell.php etc
+founded:  env,put,upload,mysql.php,shell.php etc 200/302
 
 ## proof 
 output dirsearch photo.zip
