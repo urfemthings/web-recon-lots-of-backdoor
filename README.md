@@ -9,9 +9,11 @@ Conclusion: This portal should ideally have a bug bounty program to encourage re
 title : found lots of backdoor website 
 
 target : career/[SOMETING]/ job .com
-endpoint :found :env,put,upload,mysql.php,shell.php etc
+endpoint :found env,put,upload,mysql.php,shell.php etc
+
 proof:output dirsearch photo.zip
 (https://github.com/urfemthings/web-recon-lots-of-backdoor/blob/main/output%20dirsearch%20photo.zip)
+
 tools: dirsearch on termux
 impact:Potential Information Disclosure - exposed files could leak internal server paths and configs
 
