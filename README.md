@@ -14,6 +14,8 @@ proof:output dirsearch photo.zip
 (https://github.com/urfemthings/web-recon-lots-of-backdoor/blob/main/output%20dirsearch%20photo.zip)
 tools: dirsearch on termux
 impact:Potential Information Disclosure - exposed files could leak internal server paths and configs
-Recommendation: Remove sensitive files from prod, add WAF rules to block dev extensions, and implement a Bug Bounty program.
+
+Recommendation: Remove sensitive files from prod, add WAF rules to block dev extensions, and implement a Bug Bounty program and recapca.
+
 Note: Stopped immediately, no exploitation was performed.
 
