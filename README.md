@@ -6,4 +6,13 @@ While practicing reconnaissance with dirsearch on Termux, I accidentally discove
 
 Conclusion: This portal should ideally have a bug bounty program to encourage responsible reporting. The findings suggest a lack of attention to detail from the development team in securing the production environment, leaving development artifacts exposed.
 
-career . SOMETHING.JOB COM
+title : found lots of backdoor website 
+
+target : career/[SOMETING]/ job .com
+endpoint :found :env,put,upload,mysql.php,shell.php etc
+proof:output dirsearch photo.zip
+(https://github.com/urfemthings/web-recon-lots-of-backdoor/blob/main/output%20dirsearch%20photo.zip)
+impact:Potential Information Disclosure - exposed files could leak internal server paths and configs
+Recommendation: Remove sensitive files from prod, add WAF rules to block dev extensions, and implement a Bug Bounty program.
+Note: Stopped immediately, no exploitation was performed.
+
